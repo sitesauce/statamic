@@ -1,0 +1,5 @@
+fields:
+  build_hook:
+    type: text
+    validate: required|string|url
+    placeholder: https://app.sitesauce.app/api/build_hooks/...
